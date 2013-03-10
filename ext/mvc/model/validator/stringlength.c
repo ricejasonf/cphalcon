@@ -219,6 +219,7 @@ PHP_METHOD(Phalcon_Mvc_Model_Validator_StringLength, validate){
 		}
 	}
 	
+	RETURN_MM_TRUE;
 	/** 
 	 * Any validation was invalid?
 	 */
